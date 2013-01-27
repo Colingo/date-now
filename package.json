@@ -1,6 +1,6 @@
 {
   "name": "date-now",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A requirable version of Date.now()",
   "keywords": [],
   "author": "Raynos <raynos2@gmail.com>",
@@ -16,8 +16,7 @@
     "url": "https://github.com/Colingo/date-now/issues",
     "email": "raynos2@gmail.com"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "tape": "~0.2.2",
     "browserify": "https://github.com/raynos/node-browserify/tarball/master",
