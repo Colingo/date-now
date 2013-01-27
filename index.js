@@ -1,1 +1,5 @@
-module.exports = Date.now
+module.exports = now
+
+function now() {
+    return new Date().getTime()
+}
