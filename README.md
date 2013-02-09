@@ -18,6 +18,17 @@ var ts2 = Date.now()
 assert.equal(ts, ts2)
 ```
 
+## example of seed
+
+```
+var now = require("date-now/seed")(timeStampFromServer)
+
+// ts is in "sync" with the seed value from the server
+// useful if your users have their local time being a few minutes
+// out of your server time.
+var ts = now()
+```
+
 ## Installation
 
 `npm install date-now`
